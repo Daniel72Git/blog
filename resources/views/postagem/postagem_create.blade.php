@@ -21,7 +21,7 @@
                         @csrf
 
                         <select name="categoria_id" class="form-control">
-                            @foreach ($categorias as $value)
+                            @foreach ($categoria as $value)
                                 <option value="{{ $value->id }}">{{ $value->nome }}</option>
                             @endforeach
                           </select>
